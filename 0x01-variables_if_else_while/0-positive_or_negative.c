@@ -27,3 +27,4 @@ else if (n < 0)
 	printf("% is negative\n", n)
 }
 return (0);
+}
