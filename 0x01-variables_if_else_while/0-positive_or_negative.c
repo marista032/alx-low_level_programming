@@ -9,7 +9,6 @@
  * this program prints "Programming is positive, zero, or negative
  * Return: 0
  */
-void trim(char *n)
 int main(void)
 {
 int n;
