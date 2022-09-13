@@ -4,7 +4,7 @@
  * @c: is the int that will be use in the argument of the function
  * Return: 0
  */
-int _is alpha(int c)
+int _isalpha(int c)
 {
 if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 {
