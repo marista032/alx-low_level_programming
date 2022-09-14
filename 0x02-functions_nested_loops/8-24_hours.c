@@ -19,13 +19,13 @@ while (minutes <= 59)
 {
 mins_remainder = minutes % 10;
 hours_remainder = hours % 10;
-_putchar(hours / 10 + '0')
+_putchar(hours / 10 + '0');
 _putchar(hours-remainder + '0');
 _putchar('.');
 _putchar(minutes / 10 + '0');
 _putchar(mins_remainder / 10 +'0');
 minutes++;
--putchar('\n');
+_putchar('\n');
 }
 hours++;
 minutes = 0;
