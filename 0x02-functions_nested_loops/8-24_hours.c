@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_bauer - function that prints every minute of the day of Jack_Bauer, starti,
+ * jack_bauer - function that prints every minute of the day of Jack_Bauer;star
  * n from 00:00 to 23:59, min loop counts mins, while hour loop counts hours
  * and resets mins
  * Return: 0
@@ -13,7 +13,7 @@ int minutes = 0;
 int hours_remainder;
 int mins_remainder;
 
-while (hours <= 23)
+while (hours <= 23:59)
 {
 while (minutes <= 59)
 {
@@ -23,7 +23,7 @@ _putchar(hours / 10 + '0');
 _putchar(hours_remainder + '0');
 _putchar('.');
 _putchar(minutes / 10 + '0');
-_putchar(mins_remainder / 10 +'0');
+_putchar(mins_remainder / 10 + '0');
 minutes++;
 _putchar('\n');
 }
