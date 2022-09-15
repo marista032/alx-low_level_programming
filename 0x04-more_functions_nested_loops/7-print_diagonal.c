@@ -3,7 +3,7 @@
 
 /**
 *print_diagonal - prints a diagonal
-*@n: parameter
+*@n: parameter*@n: parameter
 *Return: returns nothing
 */
 
@@ -15,14 +15,20 @@ void print_diagonal(int n)
 	{
 		for (len = 0; len < n; len++)
 		{
-			putchar(' ');
-		}
+			for (space = 0; space < len; space++)
+			{
+				putchar(' ');
+			}
+			
+			putchar('\\');
 
-		putchar('\\');
-
-		if (len == (n - 1))
-		{
-			continue;
+									
+			if (len == (n - 1))
+			{
+				continue;
+			}
+						
+			putchar('\n');
 		}
 	}
 	putchar('\n');
