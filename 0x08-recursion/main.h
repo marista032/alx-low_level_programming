@@ -15,3 +15,5 @@ int is_prime_number(int n);
 int _sqrt(int n, int x);
 int is_prime(int n, int start);
 int wildcmp(char *s1, char *s2);
+
+#endif /MAIN_H* /
