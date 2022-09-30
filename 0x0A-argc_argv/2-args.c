@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-I
 
 /**
  * main - a program that prints all arguments it recieves
@@ -10,7 +9,9 @@ I
  */
 int main(int argc, char *argv[])
 {
-	while (agrc--)
-		printf("%s\n", argv++);
+	int i;
+
+	for (i = 0; i < argc; i++)
+		printf("%s\n", argv[i]);
 	return (0);
 }
