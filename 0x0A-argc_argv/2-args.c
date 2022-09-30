@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints a program that multiplies two numbers
- * @agrc: number of arguments
- * @argv: strings of arguments
+ * main - prints all arguments it recieves
+ * @agrc: n args
+ * @argv: arr args
  * Return: 0
  */
 int main(int argc, char *argv[])
@@ -11,6 +11,6 @@ int main(int argc, char *argv[])
 	int i;
 
 	for (i = 0; i < argc; i++)
-		prints("%s\n", argv[i]);
+		printf("%s\n", argv[i]);
 	return (0);
 }
