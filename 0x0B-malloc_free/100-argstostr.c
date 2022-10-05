@@ -53,7 +53,6 @@ char *argstostr(int ac, char **av)
 				k++;
 			}
 			new_string[temp] = '\0';
-		
 		}
 		else
 		{
