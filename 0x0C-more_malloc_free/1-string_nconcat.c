@@ -3,7 +3,7 @@
 
 /**
 * string_nconcat - concatenates two strings
-*@s1: first string to copy 
+* @s1: first string to copy
 * @s2: second string to copy
 * @n: number of bytes of s2 to copy
 *
@@ -18,17 +18,19 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		i = 0;
 	else
 	{
-		for (i = 0; sl[i]; i++);
+		for (i = 0; sl[i]; i++)
+			;
 	}
 	if (s2 == NULL)
 		j = 0;
 	else
 	{
-		for (j = 0; s2[j]; j++);
+		for (j = 0; s2[j]; j++)
+			;
 	}
 	if (j > n)
 		j = n;
-	s = malloc(sizeof(char) * (i + j +l));
+	s = malloc(sizeof(char) * (i + j + l));
 	if (s == NULL)
 		return (NULL);
 	for (k = 0; k < i; k++)
